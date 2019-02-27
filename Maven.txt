@@ -27,6 +27,7 @@ Maven pom.xml structure
 
 3] <scm>-----> version control system details
 git url
+yes..........................
 </scm>
 4]<distribution management>-----> remote repo details wher we need to take backup
 </>
