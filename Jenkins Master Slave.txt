@@ -1,0 +1,32 @@
+Master 
+
+dev A --->9am  dev 
+
+
+Slaves : to distrube the load into multiple servers.
+
+how many slave u  r maitaing -->10
+
+slaves two types:
+
+linux and windows
+
+remote desktop connection
+
+agent or node
+
+Slave install in jenkins:
+
+go to mangane jenkins --> config system
+
+add jdk
+add maven
+
+go to create slave -->new node --> create a one folder on desktop.
+
+tools loc:
+config java and secuity  select medium.
+
+Jenkins job configuration
+click on jenkins dashboard click on new item ---> ci-git-dev1.0---> click on maven----->restrict where this project can be run 
+--->label express 

@@ -1,0 +1,51 @@
+Maven Repository
+-----------------------------------------------------------------------
+1) Local repo : dev will create testing the code only 
+2) central repo/m2 repo /.m2 repo :
+
+-->have maven default libilary files when you exceut maven first maven will check the m2 repo .if the dependence avaible in maven then maven willbe excute the source code
+depencence r not avaible in m2 repo maven build will be fail
+-->usually developer will mention dependence pom.xml 
+-->when you excute pom.xml maven will download dependence from internet place into m2 repo.
+-->maven have functionality to download the packeage r dependence in run time.for that we must specify dependence in pom.xml then only maven will dependence
+were is local of m2 repo in system : c:/users/hp/.m2
+
+3) remote repo: 
+
+-->purpose is to take backoff of the particular version code
+bascailly in my project we automated the remote repo throught
+ex:nexuis
+---------------------------------------------------------------------------------
+Maven pom.xml structure
+1]
+1) G-----GROUP ID --------> loc of the part file
+2) A------>Aritifactes-----> file name in part loc
+3) V------> Version--->snaspot version
+
+2]<dependency>----> 3rd party dependency details
+</>
+
+3] <scm>-----> version control system details
+git url
+</scm>
+4]<distribution management>-----> remote repo details wher we need to take backup
+</>
+
+ANT
+input javacode
+1)Compile
+2)Package
+3)Run
+out jar
+
+
+Maven 7 stages
+validate
+compile
+test
+package
+verify
+install
+deploy
+
+commands : mvn package 

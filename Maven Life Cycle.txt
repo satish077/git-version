@@ -1,0 +1,32 @@
+Maven release mgt
+-------------------------------------------
+Three types of Release.
+
+1) Daily Release : max 2 to 4 req for day in my project using M2 release plugin for releasing the source code
+dur of daily rel 5 to 10 min.
+
+2) Weekly Release: dur 4 to 7 hours.here we have dependence jobs may be developer will provide 3 jobs and 3 git urls.
+
+3) Monthly Release: dur  2 to 3 days.
+In my projects we are mainting separte xlsheet for monthly relaese in that xlsheet maintained. 
+Bascially developer modified the xlsheet.
+in xlsheet we have 20 to 30 jobs accoding to the ever month 5 to 7 jobs we will release.
+in xlsheet developer will mention indication yes / no.yes indicates that particular we need to release if they mention no that means dev
+is not happen on this particular release.
+
+-----------------------------------------------------------------------------------
+
+JENKINS CI:
+
+
+1) 1.658
+latest version of jenkins 2.88
+
+1) Master (or) Slave (or) Build Machine configuration (or) Label configuration (or) Node configuration. 192.168.33.10
+
+linux command
+sudo yum install java-1.7.0-openjdk -y
+
+if run jenkins java -jar jenkins.war  
+then to go browaser
+192.168.33.10:8080
