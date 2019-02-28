@@ -27,6 +27,8 @@ go to create slave -->new node --> create a one folder on desktop.
 tools loc:
 config java and secuity  select medium.
 
+yes.............
+
 Jenkins job configuration
 click on jenkins dashboard click on new item ---> ci-git-dev1.0---> click on maven----->restrict where this project can be run 
 --->label express 

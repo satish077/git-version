@@ -27,6 +27,7 @@ latest version of jenkins 2.88
 linux command
 sudo yum install java-1.7.0-openjdk -y
 
+yes................
 if run jenkins java -jar jenkins.war  
 then to go browaser
 192.168.33.10:8080
